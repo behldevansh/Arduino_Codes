@@ -234,7 +234,7 @@ void OpenDoor(){
   delay(1000);
    
             lcd.setCursor(0,1); 
-            lcd.print(" Door Are Open "); 
+            lcd.print(" Doors Are Open "); 
            delay(500);       
        digitalWrite(Solenoid,HIGH);
        digitalWrite(Solenoid1,LOW);
@@ -247,7 +247,7 @@ void OpenDoor(){
   delay(1000);
    
             lcd.setCursor(0,1); 
-            lcd.print(" Door Are Closed ");
+            lcd.print(" Doors Are Closed ");
             delay(500);
        digitalWrite(Solenoid,LOW);
        digitalWrite(Solenoid1,HIGH);
